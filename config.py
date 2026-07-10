@@ -1,6 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 import os
 
@@ -11,7 +9,7 @@ if LOGIN_SYSTEM == False:
     # if login system is False then fill your tg account session below 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
 else:
-    STRING_SESSION = None
+    STRING_SESSION =1BVtsOHYBuwx-yNsL_WjHHf6U5MVokGunIDcx0O-1mfR8lBRfCBA4vXvwIz73Aqn2pQjKogkgCnXvmFBRpFAWJgyo_RRZ3mqcFzNJM3vheaP4sE3p4Se0d2hyliGt-JZWqetv9OkXakdOOAsIvqrDwJh--YXXMLJgQKTGhKLcp57Xui01yIdGE-nF6LtySB9cP-CYJL7kz7Sd1_8iRVriL5zanRJhQzGkKKJG2ibpT5s4sdV2uoyuHoNmaRnt12wKPzWPafqGubTeqi12qyNgIh_5GJjbYSM9Uzq-_kYoErBxO_3ZtAQd_BdgjNhDUCuGNi2rXJQtJTuiL6FRT4YaJkOyzDGJJaE=
 
 # Bot token @Botfather
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8988323460:AAFW5ziwhBgl_xFA04PMpJZb7tC0-gurtpg")
@@ -33,7 +31,7 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
+DB_NAME = os.environ.get("DB_NAME", "Abhisavecontentbot")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) # time in seconds

@@ -8,7 +8,7 @@ from telethon.sessions import StringSession
 # ================= CONFIGURATION =================
 API_ID = 33016948  
 API_HASH = "0d86424aba3761436da03c5331c38509"  
-MY_DESTINATION = 8509692514       
+MY_DESTINATION = 6863647592      
 
 # Render की एनवायरनमेंट सेटिंग्स से स्ट्रिंग उठाएगा (ज्यादा सुरक्षित तरीका)
 STRING_SESSION = os.environ.get("STRING_SESSION")

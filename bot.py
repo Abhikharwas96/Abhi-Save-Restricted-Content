@@ -1,11 +1,9 @@
-
-
 import os
 from threading import Thread
 from flask import Flask
 from pyrogram import Client, filters
 
-# --- Render ke liye Dummy Web Server ---
+# --- Flask Server (Render ke Free Tier ke liye zaroori hai) ---
 flask_app = Flask(name)
 
 @flask_app.route('/')
@@ -13,7 +11,6 @@ def home():
     return "Bot is Running Live!"
 
 def run_flask():
-    # Render automatic PORT env variable deta hai, nahi toh 10000 use hoga
     port = int(os.environ.get("PORT", 10000))
     flask_app.run(host="0.0.0.0", port=port)
 
@@ -56,8 +53,7 @@ async def clone_content(client, message):
         await msg.edit(f"Error: {str(e)}")
 
 if name == "main":
-    # Flask ko alag thread me chalana taaki bot block na ho
+    # Flask ko background me chalana taaki Render ise block na kare
     Thread(target=run_flask).start()
-    
-    # Bot start karna
     app.run()
+

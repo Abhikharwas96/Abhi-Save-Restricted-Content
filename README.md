@@ -1,9 +1,9 @@
 
 <p align="center">
-  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="VJ Save Restricted Bot Logo">
+  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="Abhi Save Restricted Bot Logo">
 </p>
 <h1 align="center">
-  VJ Save Restricted Bot
+  Abhi Save Restricted Bot
 </h1>
 
 

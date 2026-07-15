@@ -1,0 +1,9 @@
+telegram-downloader-bot/
+│
+├── config.py          # Configuration settings
+├── main.py            # Main bot starter
+├── requirements.txt   # Dependencies
+└── handlers/
+    ├── init.py
+    ├── authentication.py  # Login / Logout logic
+    └── downloader.py      # Single & Batch link processing
